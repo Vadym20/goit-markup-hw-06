@@ -766,6 +766,7 @@ img {
   color: #555555;
   font-weight: 600;
 }
+
 .modal-label,
 .modal-form {
   font-size: 12px;
@@ -831,4 +832,70 @@ img {
 .close-button:hover,
 .close-button:focus {
   color: var(--icon-color);
+}
+/*---Checkbox--*/
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  left: 13px;
+  margin-bottom: 30px;
+}
+
+.checkbox-icon-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.checkbox {
+  appearance: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.icon-check {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 50%;
+  border-radius: 2px;
+  transform: translateY(-50%);
+  transition: opacity 250ms var(--title-text-color);
+}
+
+.icon-no-check {
+  position: absolute;
+  opacity: 1;
+  left: 0;
+  top: 50%;
+  border-radius: 2px;
+  transform: translateY(-50%);
+  transition: opacity 250ms var(--title-text-color);
+}
+
+.checkbox:checked~.icon-check {
+  background: var(--select-color);
+  opacity: 1;
+}
+
+.checkbox:checked~.icon-no-check {
+  opacity: 0;
+}
+
+.checkbox-link {
+  position: relative;
+  color: var(--select-color);
 }

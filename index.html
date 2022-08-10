@@ -423,18 +423,20 @@
           <textarea name="text" id="text" placeholder="Введіть текст" class="modal-text"></textarea>
         </div>
         <!---- Умови-->
-        <div>
-          <input id="checkbox visually-hidden" type="checkbox" name="checkbox" />
-          <div>
-            <svg class="icon1" width="16" height="15">
-              <use href="./images/"></use>
+        <div class="form-checkbox">
+          <label class="checkbox-icon-label">
+            <input class="checkbox" type="checkbox" name="checkbox">
+            <svg class="icon-check" width="16" height="15">
+              <use href="./images/ic.defs.svg#icon-check"></use>
             </svg>
-            <svg class="icon2" width="16" height="15">
-              <use href="./images/"></use>
+            <svg class="icon-no-check" width="16" height="15">
+              <use href="./images/ic.defs.svg#icon-vector"></use>
             </svg>
-          </div>
-          <span class="">Погоджуюся з розсилкою та приймаю <a class="" href="">Умови договору</a></span>
+            Погоджуюся з розсилкою та приймаю
+            <a class="checkbox-link" href="">Умови договору</a>
+          </label>
         </div>
+
         <!---Відправити -->
         <button type="submit" class="modal-btn">Відправити</button>
       </form>
