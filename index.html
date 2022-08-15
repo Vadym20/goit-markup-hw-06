@@ -79,7 +79,8 @@
           <li class="feauter-item">
             <h3 class="feauter-sub-title">Пунктуальність</h3>
             <p class="feauter-after-title">
-              Завдання організації, особливо рамки та місце навчання кадрів тягне у себе. </p>
+              Завдання організації, особливо рамки та місце навчання кадрів тягне у себе.
+            </p>
           </li>
           <li class="feauter-item">
             <h3 class="feauter-sub-title">Планування</h3>
@@ -90,7 +91,7 @@
           <li class="feauter-item">
             <h3 class="feauter-sub-title">Сучасні технології</h3>
             <p class="feauter-after-title">
-              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+              Завдання організації, особливо рамки та місце навчання кадрів тягне у себе.
             </p>
           </li>
         </ul>
@@ -349,7 +350,7 @@
         </address>
       </div>
       <div class="join-us">
-        <p class="join-us-title">Приєднуйтесь</p>
+        <p class="join-us-title">ПРИЄДНУЙТЕСЬ</p>
         <ul class="join-us-list list">
           <li class="join-us-item">
             <a href="" class="join-us-link link">
@@ -381,6 +382,19 @@
           </li>
         </ul>
       </div>
+      <!-----Підпишіться на розсилку------>
+      <div class="footer-container">
+        <label for="footer-email" class="footer-label">Підпишіться на розсилку</label>
+        <form class="footer-field" name="signup" autocomplete="on">
+          <input id="footer-email" type="email" name="email" class="footer-input" placeholder="E-mail" />
+          <button type="submit" class="footer-btn">
+            Підписатися
+            <svg class="icon-send" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
     </div>
   </footer>
   <!--------- Модальне вікно  -------->
@@ -392,7 +406,7 @@
         </svg>
       </button>
       <form class="modal-form">
-        <p class="modal-title">Залиште свої дані,ми вам передзвонимо</p>
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <!-----Ім'я ------>
 
         <div class="modal-field">
@@ -435,24 +449,31 @@
           </div>
         </div>
         <!---- Умови-->
-        <div class="form-checkbox">
+        <<<<<<< HEAD <div class="form-checkbox">
           <label class="checkbox-icon-label">
             <input class="checkbox" type="checkbox" name="checkbox">
 
             <svg class="icon-check" width="16" height="15">
-              <use href="./images/ic.defs.svg#icon-check"></use>
-            </svg>
-            <svg class="icon-no-check" width="16" height="15">
-              <use href="./images/ic.defs.svg#icon-vector"></use>
-            </svg>Погоджуюся з розсилкою та приймаю
-            <a class="checkbox-link" href="">Умови договору</a>
-          </label>
-        </div>
+              =======
 
-        <!---Відправити -->
-        <div class="modal-btn-thumb">
-          <button type="submit" class="modal-btn">Відправити</button>
-        </div>
+              <div class="form-terms-thumb">
+                <label class="form-terms">
+                  <input class="form-checkbox" type="checkbox" name="agreement" value="agreement" />
+                  <span class="icon-check"></span>
+                  <svg class="icon-check icon-active" width="16" height="15">
+                    >>>>>>> 0a49e8634645dd759e16e6c443baa846d661b8f6
+                    <use href="./images/ic.defs.svg#icon-check"></use>
+                  </svg>
+                  Погоджуюся з розсилкою та приймаю &nbsp
+                  <a href="" class="checkbox-link"> Умови договору</a>
+                </label>
+              </div>
+
+              <!---Відправити -->
+
+              <div class="modal-btn-thumb">
+                <button type="submit" class="modal-btn">Відправити</button>
+              </div>
       </form>
     </div>
   </div>
