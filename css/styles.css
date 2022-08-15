@@ -689,6 +689,9 @@ img {
 .footer-contacts {
   margin-right: 70px;
 }
+.join-us {
+  margin-right: auto;
+}
 
 .join-us-title {
   display: flex;
@@ -728,10 +731,7 @@ img {
 }
 
 /*------------------ Signup --------------------*/
-.footer-container {
-  margin-left: 93px;
-  margin-top: 12px;
-}
+
 .footer-label {
   display: flex;
   flex-direction: column;
@@ -882,7 +882,7 @@ img {
   margin-top: 4px;
 }
 .modal-field {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .modal-input {
   padding-left: 42px;
@@ -1005,6 +1005,7 @@ img {
 
 .checkbox-link {
   color: var(--select-color);
+  text-decoration: underline;
 }
 
 .modal-btn-thumb {
@@ -1022,7 +1023,7 @@ img {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-  font-size: inherit;
+
   color: var(--white-text-color);
   border-color: transparent;
   background: var(--select-color);
